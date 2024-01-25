@@ -45,30 +45,3 @@ For detailed API documentation, explore [Swagger Documentation](http://localhost
 ## Authentication
 
 The API uses JWT for user authentication. To log in and receive a token, use the `/login` endpoint.
-
-```json
-// Request
-POST /login
-{
-  "username": "your-username",
-  "password": "your-password"
-}
-
-// Response
-{
-  "token": "your-generated-token"
-}
-
-clude the generated token in the Authorization header for protected routes.
-
-Rate Limiting
-The API has rate limiting in place to prevent abuse. A maximum of 100 requests per 15 minutes is allowed.
-
-Contributing
-Contributions are welcome! Please follow our Contribution Guidelines for details.
-
-License
-This project is licensed under the MIT License.
-
-Here you go for an article **How to upload multiple files of APIs on GitHub:**
-https://medium.com/@mmuhammad_shoaib_kalim/how-do-you-upload-multiple-files-via-api-to-github-06f7df5bfc78
